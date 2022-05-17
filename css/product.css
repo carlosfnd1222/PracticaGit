@@ -1,3 +1,11 @@
+.imgOne {
+  max-height: 89%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
 .container {
   max-width: 960px;
 }
@@ -7,10 +15,12 @@
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
+
 .site-header a {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
@@ -47,11 +57,12 @@
   background-color: #e5e5e5;
 }
 
-.flex-equal > * {
+.flex-equal>* {
   flex: 1;
 }
+
 @media (min-width: 768px) {
-  .flex-md-equal > * {
+  .flex-md-equal>* {
     flex: 1;
   }
 }
